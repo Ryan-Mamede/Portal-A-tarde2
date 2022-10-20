@@ -73,13 +73,13 @@
     width: 155px; 
 }
 
-.atr-header-links {
+#atr-header-links {
     margin-left: 20px;
     font-size: 14px;
     color: #3E88d7;
 }
 
-.atr-header-links a {
+#atr-header-links a {
     text-decoration: none;
     font-size: 14px;
     margin-left: 20px;
@@ -112,4 +112,38 @@
 
 .atr-nav-li {
     cursor: pointer;
+}
+
+
+@media (max-width: 730px) {
+    .atr-header {
+        height: 70px;
+    }
+
+    .mw-header-content {
+        height: 100%;
+        margin: 0 auto;
+        max-width: unset;
+        min-width: unset;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .atr-header-content-top {
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        padding: 0 5px;
+    }
+
+    .atr-search {
+        display: none;
+    }
+    .atr-logo {
+        margin: 0;
+    }
+
+    .atr-header-content-nav {
+        display: none;
+    }
 }
