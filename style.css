@@ -8,6 +8,8 @@
     line-height: 1;
     outline: 0;
     box-sizing: border-box;
+    background: none;
+    text-rendering: optimizeLegibility;
 }
 
 
