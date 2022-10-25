@@ -1,6 +1,6 @@
 .atr-footer {
     align-items: center;
-    background-color: rgb(218, 210, 109);
+    background-color: rgb(255, 255, 255);
     display: inline-block;
     height: 785px;
     justify-content: center;
@@ -146,4 +146,66 @@
 
 .atr-footer-span-2 img {
    width: 16%;
+}
+
+.atr-footer-publi {
+   background-color: #3E88D7;
+   border-radius: 20px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+
+.atr-footer-publi-column {
+   display: flex;
+   flex-direction: column;
+   height: 146px;
+   justify-content: center;
+   margin: 0;
+   width: 100%;
+}
+
+.atr-footer-publi-column a {
+   text-decoration: none;
+}
+
+.atr-title-footer-publi {
+   color: white;
+   font-size: 36px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.atr-title-footer-publi-2 {
+   font-size: 18px;
+   color: white;
+   font-weight: bold;
+   line-height: 35px;
+   width: 100%;
+}
+
+.atr-span-publi {
+   align-items: center;
+   color: white;
+   display: flex;
+   font-size: 14px;
+   margin: 5px 0;
+   font-weight: bold;
+}
+
+.atr-span-publi img {
+  margin-right: 11px;
+}
+
+.atr-footer-copyright {
+   align-items: center;
+   display: flex;
+   height: 150px;
+   justify-content: center;
+   width: 100%;
+}
+
+.atr-footer-copyright span {
+   color: #646464;
+   font-size: 14px;
+   font-weight: normal;
 }
