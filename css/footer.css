@@ -70,7 +70,6 @@
 
  .atr-footer-span img{
    margin-right: 5px;
-
  }
  
  .atr-column-footer-1 div {
@@ -123,4 +122,28 @@
    height: 433px;
    padding: 28px;
    width: 100%;
+}
+
+.atr-footer-title {
+   font-size: 18px;
+   line-height: 22px;
+}
+
+.atr-color-title-2 {
+   color: white;
+}
+
+.atr-footer-span-2 {
+   display: flex;
+   background-color: #fff;
+   padding: 10px 12px;
+   border-radius: 40px;
+   align-items: center;
+   justify-content: center;
+   color: #3E88D7;
+   line-height: 18px;
+}
+
+.atr-footer-span-2 img {
+   width: 16%;
 }
