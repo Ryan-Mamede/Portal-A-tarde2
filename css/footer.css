@@ -209,3 +209,46 @@
    font-size: 14px;
    font-weight: normal;
 }
+
+/* Rodapé mobile*/
+
+@media (max-width: 700px) {
+
+   .atr-footer {
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+      background-color: black;
+      height: 80%;
+   }
+   .atr-footer-top {
+      display: flex;
+      flex-direction: column;
+      width: 35%;
+      align-items: center;
+      margin: 0 10px;
+   }
+
+   .column-1 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .atr-footer-publi {
+      display: none;
+   }
+
+   .atr-column-footer-2 {
+      margin-top: -185px;
+   }
+
+   .atr-footer-copyright span {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      width: 35%;
+      margin-right: 60%;
+      margin-top: 205%;
+   }
+}

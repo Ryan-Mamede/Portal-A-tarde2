@@ -111,9 +111,23 @@
 
 
 @media (max-width: 730px) {
+
+    * {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        overflow: hidden;
+    }
+
+
     .atr-header {
         height: 70px;
-        
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .mw-header-content {
@@ -122,7 +136,8 @@
         max-width: unset;
         min-width: unset;
         padding: 0 20px;
-        width: 100% !important;
+        width: 100%;
+        overflow: auto;
     }
 
     .atr-header-content-top {
@@ -137,7 +152,7 @@
     }
 
     .atr-logo {
-        margin: 0;
+        margin: 0 -375px;
     }
     
     .atr-header-content-nav {
