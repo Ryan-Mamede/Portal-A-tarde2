@@ -70,7 +70,8 @@
 
 .atr-logo {
     height: 55px;
-    width: 155px; 
+    width: 155px;
+    margin-right: 50px;
 }
 
 .atr-header-links a {
