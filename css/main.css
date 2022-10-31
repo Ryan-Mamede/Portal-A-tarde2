@@ -25,7 +25,7 @@
     color: #3E88D7;
     font-size: 22px;
     font-weight: bold; 
-    line-height: 48px; 
+    line-height: 98px; 
 }
 
 .atr-h1-main {
@@ -45,6 +45,7 @@
 }
 
 .atr-main-article-banner {
+    padding-top: 40px;
     width: 1020px;
 }
 
@@ -61,4 +62,114 @@
     color: #6C6C6C;
     font-size: 14px;
     font-weight: bold;
+}
+
+.atr-main-article-descri div{
+    display: flex;
+
+}
+
+.atr-button-ouvir {
+    width: 99px;
+    height: 36px;
+    border: 1px solid #292929;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #292929;
+}
+
+.atr-button-ouvir img {
+    align-items: center;
+    padding: 0 5px;  
+}
+
+.atr-redes {
+    display: flex;
+    align-items: center;
+}
+
+.atr-redes a {
+   padding-left: 10px;
+}
+
+.atr-banner-principal img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1020px;
+    height: auto;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+.atr-img-descri {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.atr-img-descri span {
+    color: #6C6C6C;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.atr-img-descri-btn {
+    display: flex;
+}
+
+.atr-img-descri-btn button {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.atr-article-main {
+    max-width: 900px;
+}
+
+.atr-article-principal p{
+    color: #6C6C6C;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-top: 50px;
+    margin: 30px 0;
+    width: 900px;
+}
+
+.atr-article-principal h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.atr-article-principal h4 {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    height: 2px;
+    padding-top: 50px;
+
+}
+.atr-article-video {
+    display: flex;
+    background: #343434;
+    width: 890px;
+    height: 350px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#atr-manchete p {
+    color: #343434;
+    padding-top: 5px;
+    font-size: 20px;   
 }
